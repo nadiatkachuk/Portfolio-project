@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My portfolio</title>
+    <title>Front-end developer- Nadiia Tkachuk</title>
+    <meta
+      name="description"
+      content="Nadiia Tkachuk is a front-end engineer based in Philadelphia, the USA"
+    />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -32,19 +36,26 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="/images/logo.png" alt="logo" class="d-none d-md-block logo" />
+        <a href="/">
+          <img
+            src="/images/logo.png"
+            alt="Nadiia`s logo"
+            class="d-none d-md-block logo"
+            title="Homepage"
+        /></a>
+
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Nadiia">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Nadiia`s work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Nadiia">Contact</a>
           </li>
         </ul>
       </nav>
@@ -62,7 +73,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="/images/London.png" class="img-fluid" alt="London" />
+          <img
+            src="/images/London.png"
+            class="img-fluid"
+            alt="London picture"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -75,7 +90,7 @@
               just any upon see last. He prepared no shutters perceive do
               greatest. Ye at unpleasant solicitude in companions interested.
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="row mb-5">
@@ -91,7 +106,9 @@
                 perceive do greatest. Ye at unpleasant solicitude in companions
                 interested.
               </p>
-              <a href="#" class="btn btn-branding-outline">Learn more</a>
+              <a href="/work.html" class="btn btn-branding-outline"
+                >Learn more</a
+              >
             </div>
           </div>
           <div class="col d-none d-lg-block">
@@ -108,32 +125,54 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let`s work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding">Contact me</a>
+            <a href="/contact.html" class="btn btn-branding" title="Contact me"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:nadia234567@gmail.com" class="email-link"
+          <a
+            href="mailto:nadia234567@gmail.com"
+            class="email-link"
+            title="email Nadiia"
             >nadia234567@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://www.instagram.com/nadia_tkachuk_/" target="_blank">
+          <a
+            href="https://www.instagram.com/nadia_tkachuk_/"
+            target="_blank"
+            title="Instagram profile"
+          >
             <i class="fab fa-instagram"></i
           ></a>
-          <a href="https://github.com/nadiatkachuk" target="_blank">
+          <a
+            href="https://github.com/nadiatkachuk"
+            target="_blank"
+            title="GitHub profile"
+          >
             <i class="fab fa-github"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/nadiia-tkachuk-9b3029265/"
             target="_blank"
+            title="Linkedin profile"
           >
             <i class="fab fa-linkedin"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          🖐This project coded by Nadiia Tkachuk and it is
+          <a
+            href="https://github.com/nadiatkachuk/Portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
